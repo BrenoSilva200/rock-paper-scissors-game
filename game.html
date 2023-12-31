@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pedra Papel Tesoura</title>
+    <link rel="icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="styles/filei.css">
+</head>
+
+  <body>
+      <p class="p"> Pedra Papel Tesoura </p>
+      <button class="botao" onclick="
+      jogo('pedra');">
+      <img class="img1" src="images/pedra-emoji.png">
+    </button>
+      <button class="botao" onclick="
+      jogo('papel')">
+      <img class="img1" src="images/papel-emoji.png">
+    </button>
+      <button class="botao" onclick="
+      jogo('tesoura')">
+      <img class="img1" src="images/tesoura-emoji.png">
+    </button>
+      <div class="div1 div2"></div>
+      <button class="reset js-reset" onclick="
+      localStorage.removeItem('score')
+      score.vitorias = 0;
+      score.derrotas = 0;
+      score.empates = 0;
+      div2();
+      ">Reset Score</button>
+      
+      
+      
+
+    
+
+    <script src="scripts/file.js"></script>
+    </script>
+  </body>
+</html>

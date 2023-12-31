@@ -1,0 +1,64 @@
+body {
+  
+  background-color: rgba(0, 0, 0, 0.89);
+  font-family: arial;
+  color: white
+}
+
+.p {
+  font-size: 40px;
+}
+
+button {
+  border: 3px solid white;
+  background-color: transparent;
+  margin-right: 10px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  backdrop-filter: blur(15px);
+  
+}
+
+.img1 {
+  height: 70px;
+}
+
+.oi1 {
+  font-size: 30px;
+}
+
+.oi2 {
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.oi3{
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.reset {
+  background-color: white;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  font-family: arial;
+  margin-top: 50px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+
+  
+}
+
+.reset:hover {
+  opacity: 0.9;
+}
+
+.reset:active {
+  opacity: 0.8;
+}
