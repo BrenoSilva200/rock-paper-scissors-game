@@ -6,8 +6,13 @@ let Resultado = "";
 
 
 
-let score = JSON.parse(localStorage.getItem("score"));
+let score = {
+  vitorias: 0,
+  derrotas: 0,
+  empates: 0
+}
 
+JSON.parse(localStorage.getItem("score"));
 
 
 
