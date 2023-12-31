@@ -6,13 +6,9 @@ let Resultado = "";
 
 
 
-let score = {
-  vitorias: 0,
-  derrotas: 0,
-  empates: 0
-}
+let score = JSON.parse(localStorage.getItem("score"));
 
-JSON.parse(localStorage.getItem("score"));
+
 
 
 function jogo(PlayerMove) {
